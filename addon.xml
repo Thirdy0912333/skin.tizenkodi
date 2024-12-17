@@ -1,0 +1,14 @@
+<addon id="skin.tizenUI" version="1.0.0" name="Tizen UI Skin" provider-name="YourName">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0"/>
+    </requires>
+    <extension point="xbmc.gui.skin">
+        <resolutions>
+            <resolution id="1080i" folder="1080i" aspect="16:9"/>
+        </resolutions>
+    </extension>
+    <assets>
+        <thumb>media/preview.png</thumb>
+        <fanart>media/fanart.png</fanart>
+    </assets>
+</addon>
