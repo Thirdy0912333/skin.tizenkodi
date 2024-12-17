@@ -1,0 +1,27 @@
+<window>
+    <control type="image">
+        <texture>media/background.png</texture>
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>1920</width>
+        <height>1080</height>
+    </control>
+
+    <control type="fixedlist">
+        <description>Main Horizontal Menu</description>
+        <posx>100</posx>
+        <posy>900</posy>
+        <width>1720</width>
+        <height>150</height>
+        <itemlayout>
+            <control type="button">
+                <label>Movies</label>
+                <texturefocus>media/focus.png</texturefocus>
+                <texturenofocus>media/nofocus.png</texturenofocus>
+            </control>
+            <control type="button">
+                <label>TV Shows</label>
+            </control>
+        </itemlayout>
+    </control>
+</window>
