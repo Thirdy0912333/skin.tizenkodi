@@ -11,4 +11,7 @@
         <thumb>media/preview.png</thumb>
         <fanart>media/fanart.png</fanart>
     </assets>
-</addon>
+</addons>
+    <requires>
+    <import addon="script.skinshortcuts" version="1.0.0" />
+</requires>
