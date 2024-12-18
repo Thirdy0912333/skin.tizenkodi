@@ -1,1 +1,27 @@
+<includes>
+    <!-- Define a constant for a primary color -->
+    <constant name="primaryColor">FFFFFFFF</constant>
 
+    <!-- Define a reusable button control -->
+    <include name="StandardButton">
+        <control type="button">
+            <width>200</width>
+            <height>50</height>
+            <label>$PARAM[ButtonLabel]</label>
+            <textcolor>$INFO[Skin.String(primaryColor)]</textcolor>
+            <texturefocus>button-focus.png</texturefocus>
+            <texturenofocus>button-nofocus.png</texturenofocus>
+        </control>
+    </include>
+</includes>
+<include name="TizenHomeMenu">
+    <control type="grouplist">
+        <id>9000</id>
+        <content>script.skinshortcuts</content>
+        <posx>100</posx>
+        <posy>200</posy>
+        <width>1920</width>
+        <height>1080</height>
+        <!-- Add main menu and submenu here -->
+    </control>
+</include>
