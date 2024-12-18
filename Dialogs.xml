@@ -1,0 +1,25 @@
+<window id="10100" type="dialog">
+    <defaultcontrol>10</defaultcontrol>
+    <controls>
+        <control type="label">
+            <id>1</id>
+            <posx>50</posx>
+            <posy>30</posy>
+            <width>400</width>
+            <height>30</height>
+            <label>Dialog Title</label>
+            <font>font14</font>
+            <textcolor>white</textcolor>
+        </control>
+        <control type="button">
+            <id>10</id>
+            <posx>150</posx>
+            <posy>100</posy>
+            <width>200</width>
+            <height>50</height>
+            <label>OK</label>
+            <texturefocus>button-focus.png</texturefocus>
+            <texturenofocus>button-nofocus.png</texturenofocus>
+        </control>
+    </controls>
+</window>
