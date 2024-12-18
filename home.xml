@@ -25,3 +25,29 @@
         </itemlayout>
     </control>
 </window>
+<include name="HomeMenu">
+    <!-- Main Menu -->
+    <control type="grouplist">
+        <id>9000</id>
+        <posx>100</posx>
+        <posy>200</posy>
+        <width>1920</width>
+        <height>1080</height>
+        <control type="wraplist">
+            <id>10</id>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1920</width>
+            <height>200</height>
+            <orientation>horizontal</orientation>
+            <focusposition>1</focusposition>
+            <texturefocus>button-focus.png</texturefocus>
+            <texturenofocus>button-nofocus.png</texturenofocus>
+            <itemlayout>
+                <label>$INFO[Container(10).ListItem.Label]</label>
+                <onclick>$INFO[Container(10).ListItem.OnClick]</onclick>
+            </itemlayout>
+            <content>script.skinshortcuts</content>
+        </control>
+    </control>
+</include>
